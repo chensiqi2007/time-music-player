@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="tm-bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fa233b" />
+      <stop offset="55%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="tm-ring" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#tm-bg)" />
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5" />
+  <!-- Time Arc -->
+  <path d="M47.5 32C47.5 40.5604 40.5604 47.5 32 47.5C23.4396 47.5 16.5 40.5604 16.5 32C16.5 23.4396 23.4396 16.5 32 16.5C36.8 16.5 41.09 18.68 43.94 22.1" stroke="url(#tm-ring)" stroke-width="3.2" stroke-linecap="round" />
+  <!-- Music Note + Time Hand -->
+  <path d="M33.5 20.5V36.2C32.45 35.55 31.18 35.2 29.8 35.2C26.6 35.2 24 37.55 24 40.45C24 43.35 26.6 45.7 29.8 45.7C33 45.7 35.6 43.35 35.6 40.45V26.4L42.5 24.4V19.6L33.5 20.5Z" fill="#ffffff" />
+</svg>
